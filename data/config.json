@@ -1,0 +1,59 @@
+{
+  "siteName": "GameBoss Q8",
+  "origin": "https://oalsoos13-crypto.github.io",
+  "base": "/gamebossq8-store/",
+  "year": 2026,
+  "locales": [
+    "ar",
+    "en"
+  ],
+  "defaultLocale": "ar",
+  "indexable": true,
+  "themeColor": "#F5F5F7",
+  "contact": {
+    "whatsapp": "96597937556",
+    "phone": "+96597937556",
+    "phoneDisplay": "+965 9793 7556",
+    "instagram": "https://www.instagram.com/game_bossq8/",
+    "tiktok": "https://www.tiktok.com/@gamebossq8"
+  },
+  "delivery": {
+    "feeFils": 1500,
+    "freeOverFils": 25000,
+    "confirmed": false
+  },
+  "payments": [
+    "cod",
+    "knet_link"
+  ],
+  "governorates": [
+    "capital",
+    "hawalli",
+    "farwaniya",
+    "ahmadi",
+    "jahra",
+    "mubarak"
+  ],
+  "analytics": {
+    "provider": null,
+    "code": null
+  },
+  "trustBrands": [
+    "PIVA",
+    "HyperX",
+    "Plextone",
+    "MEMO",
+    "RedMagic"
+  ],
+  "imageHosts": [
+    "https://gamebossq8.com"
+  ],
+  "clientI18n": [
+    "common",
+    "a11y",
+    "price",
+    "stock",
+    "nav"
+  ],
+  "storagePrefix": "gbq8:v2:"
+}

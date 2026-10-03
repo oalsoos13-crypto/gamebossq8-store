@@ -1,0 +1,39 @@
+{
+  "publishId": "40e2a908",
+  "base": "/gamebossq8-store/",
+  "origin": "https://oalsoos13-crypto.github.io",
+  "year": 2026,
+  "counts": {
+    "products": 165,
+    "categories": 12,
+    "html": 378,
+    "files": 402,
+    "pagesByModule": {
+      "404.mjs": 2,
+      "category.mjs": 26,
+      "checkout.mjs": 2,
+      "home.mjs": 2,
+      "info.mjs": 10,
+      "offline.mjs": 2,
+      "product.mjs": 330,
+      "pwa-files.mjs": 4,
+      "search.mjs": 3,
+      "wishlist.mjs": 2
+    }
+  },
+  "assets": {
+    "css": "assets/app.429f0da1.css",
+    "js": "assets/app.23c9e763.js",
+    "productsJson": "assets/products.319bb495.json"
+  },
+  "i18n": [
+    "data/i18n.json",
+    "src/i18n/cart.json",
+    "src/i18n/catalog.json",
+    "src/i18n/home.json",
+    "src/i18n/info.json",
+    "src/i18n/product.json",
+    "src/i18n/pwa.json"
+  ],
+  "overrides": []
+}

@@ -1,0 +1,79 @@
+{
+  "$comment": "Catalog module (category pages, all-products page, search page + header search overlay). Keys used by browser JS carry \"client\": true.",
+
+  "catalog.metaTitle": { "ar": "{name} في الكويت", "en": "{name} in Kuwait" },
+  "catalog.metaDesc": {
+    "ar": "{desc} تصفّح {count} في GameBoss Q8 واطلب بسهولة عبر واتساب.",
+    "en": "{desc} Browse {count} at GameBoss Q8 and order easily on WhatsApp."
+  },
+  "catalog.allTitle": { "ar": "كل المنتجات", "en": "All products" },
+  "catalog.allDesc": {
+    "ar": "كل إكسسوارات الألعاب في متجرنا بمكان واحد. صفِّها حسب القسم أو الماركة أو السعر.",
+    "en": "Every gaming accessory in the store in one place. Narrow it down by category, brand or price."
+  },
+  "catalog.allMetaTitle": { "ar": "كل المنتجات — إكسسوارات الألعاب", "en": "All products — gaming accessories" },
+  "catalog.resultsHeading": { "ar": "المنتجات", "en": "Products" },
+  "catalog.otherCats": { "ar": "تصفّح أقساماً أخرى", "en": "Browse other categories" },
+  "catalog.viewAllProducts": { "ar": "كل المنتجات", "en": "All products" },
+
+  "catalog.sortLabel": { "ar": "ترتيب حسب", "en": "Sort by", "client": true },
+  "catalog.sortBest": { "ar": "الأنسب", "en": "Best match", "client": true },
+  "catalog.sortPriceAsc": { "ar": "السعر: من الأقل", "en": "Price: low to high", "client": true },
+  "catalog.sortPriceDesc": { "ar": "السعر: من الأعلى", "en": "Price: high to low", "client": true },
+  "catalog.sortDiscount": { "ar": "أعلى خصم", "en": "Biggest discount", "client": true },
+  "catalog.filters": { "ar": "تصفية النتائج", "en": "Filter results", "client": true },
+  "catalog.inStock": { "ar": "المتوفر فقط", "en": "In stock only", "client": true },
+  "catalog.onSale": { "ar": "عليه عرض", "en": "On sale", "client": true },
+  "catalog.brand": { "ar": "الماركة", "en": "Brand", "client": true },
+  "catalog.category": { "ar": "القسم", "en": "Category" },
+  "catalog.allCats": { "ar": "الكل", "en": "All" },
+  "catalog.reset": { "ar": "إزالة الفلاتر", "en": "Clear filters", "client": true },
+  "catalog.filteredCount": { "ar": "يظهر {shown} من أصل {total}", "en": "Showing {shown} of {total}", "client": true },
+  "catalog.noneShown": { "ar": "لا توجد منتجات مطابقة", "en": "No matching products", "client": true },
+  "catalog.emptyTitle": { "ar": "لا توجد منتجات تطابق اختيارك", "en": "No products match your filters", "client": true },
+  "catalog.emptyText": {
+    "ar": "جرّب إزالة بعض الفلاتر أو تصفّح قسماً آخر.",
+    "en": "Try removing some filters or browse another category.",
+    "client": true
+  },
+
+  "search.metaTitle": { "ar": "البحث في المتجر", "en": "Search the store" },
+  "search.metaDesc": {
+    "ar": "ابحث في إكسسوارات ألعاب الموبايل لدى GameBoss Q8 بالاسم أو الماركة أو النوع.",
+    "en": "Search GameBoss Q8 mobile gaming accessories by name, brand or type."
+  },
+  "search.title": { "ar": "البحث في المتجر", "en": "Search the store" },
+  "search.docTitle": { "ar": "«{q}» — البحث | GameBoss Q8", "en": "“{q}” — Search | GameBoss Q8", "client": true },
+  "search.resultsFor": { "ar": "نتائج البحث عن «{q}»", "en": "Results for “{q}”", "client": true },
+  "search.results": {
+    "ar": { "zero": "لا توجد نتائج", "one": "نتيجة واحدة", "two": "نتيجتان", "few": "{n} نتائج", "many": "{n} نتيجة", "other": "{n} نتيجة" },
+    "en": { "=0": "No results", "one": "1 result", "other": "{n} results" },
+    "client": true
+  },
+  "search.viewAll": { "ar": "عرض كل النتائج ({n})", "en": "View all results ({n})", "client": true },
+  "search.noResultsTitle": { "ar": "لم نجد نتائج لـ «{q}»", "en": "No results for “{q}”", "client": true },
+  "search.noResultsText": {
+    "ar": "تأكّد من طريقة الكتابة أو جرّب كلمة أبسط، أو راسلنا على واتساب وسنساعدك في إيجاده.",
+    "en": "Check the spelling or try a simpler word, or message us on WhatsApp and we’ll help you find it.",
+    "client": true
+  },
+  "search.askWa": { "ar": "اسألنا على واتساب", "en": "Ask us on WhatsApp", "client": true },
+  "search.askWaMsg": { "ar": "مرحباً، أبحث عن: {q}", "en": "Hi, I’m looking for: {q}", "client": true },
+  "search.hint": {
+    "ar": "اكتب اسم المنتج أو الماركة أو نوعه، مثل: مروحة، PIVA، سماعة.",
+    "en": "Type a product name, brand or type, for example: fan, PIVA, headset."
+  },
+  "search.minChars": { "ar": "اكتب حرفين على الأقل للبحث.", "en": "Type at least 2 characters to search.", "client": true },
+  "search.browseCats": { "ar": "تصفّح الأقسام", "en": "Browse categories", "client": true },
+  "search.catMatches": { "ar": "أقسام مطابقة", "en": "Matching categories", "client": true },
+  "search.products": { "ar": "المنتجات", "en": "Products", "client": true },
+  "search.recent": { "ar": "عمليات البحث الأخيرة", "en": "Recent searches", "client": true },
+  "search.clearRecent": { "ar": "مسح", "en": "Clear", "client": true },
+  "search.clearRecentLabel": { "ar": "مسح عمليات البحث الأخيرة", "en": "Clear recent searches", "client": true },
+  "search.recentCleared": { "ar": "تم مسح عمليات البحث الأخيرة", "en": "Recent searches cleared", "client": true },
+  "search.inputLabel": { "ar": "ابحث عن منتج", "en": "Search for a product" },
+  "search.noscript": {
+    "ar": "يحتاج البحث إلى تفعيل JavaScript في متصفحك. يمكنك تصفّح الأقسام بالأسفل.",
+    "en": "Search needs JavaScript enabled in your browser. You can browse the categories below."
+  }
+}

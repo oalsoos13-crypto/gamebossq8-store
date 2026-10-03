@@ -1,0 +1,75 @@
+{
+  "$comment": "PWA + SEO infra strings (src/pages/404.mjs, offline.mjs, pwa-files.mjs, src/js/60-pwa.js). Keys marked client:true are embedded on every page; offline/404 page-only strings travel in pageData.",
+
+  "pwa.appName": { "ar": "GameBoss Q8 — إكسسوارات الألعاب", "en": "GameBoss Q8 — Gaming accessories" },
+  "pwa.appShortName": { "ar": "GameBoss Q8", "en": "GameBoss Q8" },
+  "pwa.appDesc": {
+    "ar": "إكسسوارات ألعاب الموبايل في الكويت: يدات تحكم، شفتات، مراوح تبريد، وصلات وسماعات. اطلب عبر واتساب.",
+    "en": "Mobile gaming accessories in Kuwait: controllers, triggers, cooling fans, adapters and headsets. Order on WhatsApp."
+  },
+  "pwa.shortcutSearch": { "ar": "البحث", "en": "Search" },
+  "pwa.shortcutWishlist": { "ar": "المفضلة", "en": "Wishlist" },
+  "pwa.shortcutEnglish": { "ar": "English", "en": "English" },
+
+  "pwa.updateReady": { "ar": "يتوفر تحديث جديد للمتجر", "en": "A new version of the store is available", "client": true },
+  "pwa.updateAction": { "ar": "تحديث", "en": "Update", "client": true },
+  "pwa.installRegion": { "ar": "تثبيت تطبيق المتجر", "en": "Install the store app", "client": true },
+  "pwa.installAction": { "ar": "ثبّت التطبيق", "en": "Install the app", "client": true },
+  "pwa.installed": { "ar": "تم تثبيت التطبيق ✓", "en": "App installed ✓", "client": true },
+  "pwa.iosTitle": { "ar": "أضف المتجر إلى الشاشة الرئيسية", "en": "Add the store to your Home Screen", "client": true },
+  "pwa.iosLead": {
+    "ar": "افتح المتجر كتطبيق بلمسة واحدة من شاشتك، بدون تحميل من المتجر.",
+    "en": "Open the store like an app with one tap — no App Store download needed.",
+    "client": true
+  },
+  "pwa.iosStep1": {
+    "ar": "اضغط زر «مشاركة» في Safari (المربع والسهم المتجه للأعلى).",
+    "en": "Tap the Share button in Safari (the square with an arrow pointing up).",
+    "client": true
+  },
+  "pwa.iosStep2": { "ar": "مرّر للأسفل واختر «إضافة إلى الشاشة الرئيسية».", "en": "Scroll down and choose “Add to Home Screen”.", "client": true },
+  "pwa.iosStep3": { "ar": "اضغط «إضافة»، وستظهر أيقونة المتجر على شاشتك.", "en": "Tap “Add” and the store icon will appear on your screen.", "client": true },
+  "pwa.iosDone": { "ar": "تم", "en": "Got it", "client": true },
+
+  "offline.metaTitle": { "ar": "لا يوجد اتصال بالإنترنت", "en": "You’re offline" },
+  "offline.metaDesc": {
+    "ar": "يبدو أنك غير متصل بالإنترنت. تحقّق من اتصالك ثم أعد المحاولة.",
+    "en": "It looks like you’re offline. Check your connection and try again."
+  },
+  "offline.eyebrow": { "ar": "وضع عدم الاتصال", "en": "Offline mode" },
+  "offline.title": { "ar": "أنت غير متصل بالإنترنت", "en": "You’re offline" },
+  "offline.text": {
+    "ar": "تعذّر فتح هذه الصفحة الآن. تحقّق من اتصالك بالإنترنت ثم أعد المحاولة.",
+    "en": "We couldn’t open this page right now. Check your internet connection and try again."
+  },
+  "offline.cartSafe": {
+    "ar": "سلتك ومفضلتك محفوظتان على هذا الجهاز، ويمكنك إكمال الطلب فور عودة الاتصال.",
+    "en": "Your cart and wishlist are saved on this device — you can finish your order as soon as you’re back online."
+  },
+  "offline.retry": { "ar": "أعد المحاولة", "en": "Try again" },
+  "offline.savedTitle": { "ar": "صفحات متاحة بدون اتصال", "en": "Pages available offline" },
+  "offline.savedText": { "ar": "زرتها من قبل على هذا الجهاز، فيمكنك فتحها الآن.", "en": "You visited these on this device, so you can open them now." },
+  "offline.backOnline": { "ar": "عاد الاتصال بالإنترنت", "en": "You’re back online" },
+  "offline.checking": { "ar": "جارٍ التحقق من الاتصال…", "en": "Checking your connection…" },
+  "offline.stillOffline": { "ar": "ما زال الاتصال غير متاح", "en": "Still offline" },
+
+  "notfound.metaTitle": { "ar": "الصفحة غير موجودة", "en": "Page not found" },
+  "notfound.metaDesc": {
+    "ar": "لم نجد الصفحة المطلوبة. ابحث في المتجر أو تصفّح الأقسام.",
+    "en": "We couldn’t find that page. Search the store or browse the categories."
+  },
+  "notfound.eyebrow": { "ar": "خطأ 404", "en": "Error 404" },
+  "notfound.title": { "ar": "لم نجد هذه الصفحة", "en": "We couldn’t find this page" },
+  "notfound.text": {
+    "ar": "ربما تغيّر الرابط أو لم يعد المنتج متاحاً. ابحث عمّا تريد أو تصفّح الأقسام.",
+    "en": "The link may have changed or the product may no longer be listed. Search for what you need or browse the categories."
+  },
+  "notfound.searchLabel": { "ar": "ابحث في المتجر", "en": "Search the store" },
+  "notfound.catsTitle": { "ar": "تصفّح الأقسام", "en": "Browse categories" },
+  "notfound.askWa": { "ar": "اسألنا على واتساب", "en": "Ask us on WhatsApp" },
+  "notfound.waText": {
+    "ar": "مرحباً GameBoss Q8 👋 كنت أبحث عن صفحة في المتجر ولم أجدها:\n{url}",
+    "en": "Hi GameBoss Q8 👋 I was looking for a page on the store but couldn’t find it:\n{url}"
+  },
+  "notfound.checking": { "ar": "نبحث عن الصفحة الصحيحة…", "en": "Finding the right page…" }
+}

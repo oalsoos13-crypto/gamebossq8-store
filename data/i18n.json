@@ -1,0 +1,393 @@
+{
+  "meta.siteName": {
+    "ar": "GameBoss Q8",
+    "en": "GameBoss Q8"
+  },
+  "meta.titleTemplate": {
+    "ar": "{title} | GameBoss Q8",
+    "en": "{title} | GameBoss Q8"
+  },
+  "meta.homeTitle": {
+    "ar": "GameBoss Q8 | إكسسوارات ألعاب الموبايل في الكويت",
+    "en": "GameBoss Q8 | Mobile Gaming Accessories in Kuwait"
+  },
+  "meta.homeDesc": {
+    "ar": "إكسسوارات ألعاب الموبايل في الكويت: يدات تحكم، شفتات، مراوح تبريد، وصلات وسماعات. اطلب بسهولة عبر واتساب وادفع كاش عند الاستلام.",
+    "en": "Mobile gaming accessories in Kuwait: controllers, triggers, cooling fans, adapters and headsets. Order easily on WhatsApp and pay cash on delivery."
+  },
+  "meta.tagline": {
+    "ar": "إكسسوارات ألعاب الموبايل في الكويت",
+    "en": "Mobile gaming accessories in Kuwait"
+  },
+  "meta.ogImageAlt": {
+    "ar": "GameBoss Q8 — إكسسوارات الألعاب",
+    "en": "GameBoss Q8 — Gaming accessories"
+  },
+  "nav.skip": {
+    "ar": "تخطَّ إلى المحتوى",
+    "en": "Skip to content"
+  },
+  "nav.homeLabel": {
+    "ar": "GameBoss Q8 — الرئيسية",
+    "en": "GameBoss Q8 — Home"
+  },
+  "nav.main": {
+    "ar": "التنقل الرئيسي",
+    "en": "Main navigation"
+  },
+  "nav.tabbar": {
+    "ar": "التنقل السريع",
+    "en": "Quick navigation"
+  },
+  "nav.home": {
+    "ar": "الرئيسية",
+    "en": "Home"
+  },
+  "nav.categories": {
+    "ar": "الأقسام",
+    "en": "Categories"
+  },
+  "nav.allCategories": {
+    "ar": "كل الأقسام",
+    "en": "All categories"
+  },
+  "nav.allProducts": {
+    "ar": "كل المنتجات",
+    "en": "All products"
+  },
+  "nav.search": {
+    "ar": "بحث",
+    "en": "Search"
+  },
+  "nav.searchPlaceholder": {
+    "ar": "ابحث عن يد، شفتات، مروحة، أدبتر…",
+    "en": "Search controllers, triggers, fans, adapters…"
+  },
+  "nav.searchSubmit": {
+    "ar": "ابحث",
+    "en": "Search"
+  },
+  "nav.wishlist": {
+    "ar": "المفضلة",
+    "en": "Wishlist"
+  },
+  "nav.cart": {
+    "ar": "السلة",
+    "en": "Cart"
+  },
+  "nav.whatsapp": {
+    "ar": "واتساب",
+    "en": "WhatsApp"
+  },
+  "nav.chatWhatsapp": {
+    "ar": "راسلنا على واتساب",
+    "en": "Chat with us on WhatsApp"
+  },
+  "nav.switchLang": {
+    "ar": "English",
+    "en": "العربية"
+  },
+  "nav.switchLangShort": {
+    "ar": "EN",
+    "en": "عربي"
+  },
+  "nav.info": {
+    "ar": "معلومات المتجر",
+    "en": "Store info"
+  },
+  "common.close": {
+    "ar": "إغلاق",
+    "en": "Close"
+  },
+  "common.closeCart": {
+    "ar": "إغلاق السلة",
+    "en": "Close cart"
+  },
+  "common.closeSearch": {
+    "ar": "إغلاق البحث",
+    "en": "Close search"
+  },
+  "common.closeMenu": {
+    "ar": "إغلاق قائمة الأقسام",
+    "en": "Close categories menu"
+  },
+  "common.cartTitle": {
+    "ar": "سلة المشتريات",
+    "en": "Your cart"
+  },
+  "common.searchTitle": {
+    "ar": "البحث في المتجر",
+    "en": "Search the store"
+  },
+  "common.menuTitle": {
+    "ar": "الأقسام",
+    "en": "Categories"
+  },
+  "common.viewAll": {
+    "ar": "شاهد الكل",
+    "en": "View all"
+  },
+  "common.viewAllN": {
+    "ar": "شاهد الكل ({n})",
+    "en": "View all ({n})"
+  },
+  "common.addToCart": {
+    "ar": "أضف للسلة",
+    "en": "Add to cart"
+  },
+  "common.addedToCart": {
+    "ar": "أُضيف إلى السلة ✓",
+    "en": "Added to cart ✓"
+  },
+  "common.viewCart": {
+    "ar": "عرض السلة",
+    "en": "View cart"
+  },
+  "common.notifyMe": {
+    "ar": "بلّغني لما يتوفر",
+    "en": "Notify me when available"
+  },
+  "common.notifyMeShort": {
+    "ar": "بلّغني",
+    "en": "Notify me"
+  },
+  "common.notifyMsg": {
+    "ar": "مرحباً، أودّ أن تبلغوني عند توفّر: {name} [#{id}]\n{url}",
+    "en": "Hi, please let me know when this is back in stock: {name} [#{id}]\n{url}"
+  },
+  "common.waGreeting": {
+    "ar": "مرحباً GameBoss Q8 👋",
+    "en": "Hi GameBoss Q8 👋"
+  },
+  "common.wishAdded": {
+    "ar": "أُضيف إلى المفضلة ♡",
+    "en": "Saved to wishlist ♡"
+  },
+  "common.wishRemoved": {
+    "ar": "أُزيل من المفضلة",
+    "en": "Removed from wishlist"
+  },
+  "common.noImage": {
+    "ar": "الصورة قريباً",
+    "en": "Image coming soon"
+  },
+  "common.loading": {
+    "ar": "جاري التحميل…",
+    "en": "Loading…"
+  },
+  "common.error": {
+    "ar": "حدث خطأ غير متوقع، يُرجى المحاولة مرة أخرى",
+    "en": "Something went wrong, please try again"
+  },
+  "common.retry": {
+    "ar": "أعد المحاولة",
+    "en": "Try again"
+  },
+  "common.currency": {
+    "ar": "د.ك",
+    "en": "KWD"
+  },
+  "common.backHome": {
+    "ar": "العودة إلى الرئيسية",
+    "en": "Back to home"
+  },
+  "common.priceUpdated": {
+    "ar": "تحدّث سعر بعض المنتجات في سلتك",
+    "en": "Some prices in your cart have been updated"
+  },
+  "common.dismiss": {
+    "ar": "إخفاء",
+    "en": "Dismiss"
+  },
+  "common.qty": {
+    "ar": "الكمية",
+    "en": "Quantity"
+  },
+  "common.unavailable": {
+    "ar": "غير متوفر حالياً",
+    "en": "Currently unavailable"
+  },
+  "common.storageOff": {
+    "ar": "التخزين معطّل في متصفحك، لذلك لن تُحفظ السلة بعد إغلاق الصفحة.",
+    "en": "Storage is disabled in your browser, so your cart won’t be saved after you leave."
+  },
+  "common.products": {
+    "ar": {
+      "zero": "لا توجد منتجات",
+      "one": "منتج واحد",
+      "two": "منتجان",
+      "few": "{n} منتجات",
+      "many": "{n} منتجاً",
+      "other": "{n} منتج"
+    },
+    "en": {
+      "one": "1 product",
+      "other": "{n} products"
+    }
+  },
+  "price.now": {
+    "ar": "السعر",
+    "en": "Price"
+  },
+  "price.was": {
+    "ar": "السعر قبل",
+    "en": "Was"
+  },
+  "price.save": {
+    "ar": "وفّر {amount}",
+    "en": "Save {amount}"
+  },
+  "price.off": {
+    "ar": "-{pct}%",
+    "en": "-{pct}%"
+  },
+  "price.offLabel": {
+    "ar": "خصم {pct}%",
+    "en": "{pct}% off"
+  },
+  "stock.in_stock": {
+    "ar": "متوفر",
+    "en": "In stock"
+  },
+  "stock.out_of_stock": {
+    "ar": "نفدت الكمية",
+    "en": "Out of stock"
+  },
+  "stock.backorder": {
+    "ar": "طلب مسبق",
+    "en": "Pre-order"
+  },
+  "stock.new": {
+    "ar": "جديد",
+    "en": "New"
+  },
+  "a11y.addToCart": {
+    "ar": "أضف {name} إلى السلة",
+    "en": "Add {name} to cart"
+  },
+  "a11y.wishAdd": {
+    "ar": "أضف {name} إلى المفضلة",
+    "en": "Add {name} to wishlist"
+  },
+  "a11y.wishRemove": {
+    "ar": "أزل {name} من المفضلة",
+    "en": "Remove {name} from wishlist"
+  },
+  "a11y.notify": {
+    "ar": "بلّغني لما يتوفر {name}",
+    "en": "Notify me when {name} is available"
+  },
+  "a11y.cartCount": {
+    "ar": {
+      "zero": "السلة فارغة",
+      "one": "السلة، فيها منتج واحد",
+      "two": "السلة، فيها منتجان",
+      "few": "السلة، فيها {n} منتجات",
+      "many": "السلة، فيها {n} منتجاً",
+      "other": "السلة، فيها {n} منتج"
+    },
+    "en": {
+      "one": "Cart, 1 item",
+      "other": "Cart, {n} items"
+    }
+  },
+  "a11y.wishCount": {
+    "ar": {
+      "zero": "المفضلة فارغة",
+      "one": "المفضلة، فيها منتج واحد",
+      "two": "المفضلة، فيها منتجان",
+      "few": "المفضلة، فيها {n} منتجات",
+      "many": "المفضلة، فيها {n} منتجاً",
+      "other": "المفضلة، فيها {n} منتج"
+    },
+    "en": {
+      "zero": "Wishlist, empty",
+      "one": "Wishlist, 1 item",
+      "other": "Wishlist, {n} items"
+    }
+  },
+  "a11y.breadcrumb": {
+    "ar": "مسار التنقل",
+    "en": "Breadcrumb"
+  },
+  "a11y.newTab": {
+    "ar": "(يفتح في نافذة جديدة)",
+    "en": "(opens in a new tab)"
+  },
+  "a11y.seeAllCat": {
+    "ar": "شاهد كل منتجات {cat}",
+    "en": "See all {cat}"
+  },
+  "a11y.scrollPrev": {
+    "ar": "السابق",
+    "en": "Previous"
+  },
+  "a11y.scrollNext": {
+    "ar": "التالي",
+    "en": "Next"
+  },
+  "footer.about": {
+    "ar": "متجر كويتي لإكسسوارات ألعاب الموبايل والآيباد: يدات تحكم، شفتات، مراوح تبريد، وصلات وسماعات. اطلب عبر واتساب ونوصل طلبك داخل الكويت.",
+    "en": "A Kuwaiti store for mobile and iPad gaming accessories: controllers, triggers, cooling fans, adapters and headsets. Order on WhatsApp, delivered within Kuwait."
+  },
+  "footer.categories": {
+    "ar": "الأقسام",
+    "en": "Categories"
+  },
+  "footer.help": {
+    "ar": "المساعدة",
+    "en": "Help"
+  },
+  "footer.contact": {
+    "ar": "تواصل معنا",
+    "en": "Contact"
+  },
+  "footer.howToOrder": {
+    "ar": "طريقة الطلب",
+    "en": "How to order"
+  },
+  "footer.deliveryPayment": {
+    "ar": "التوصيل والدفع",
+    "en": "Delivery & payment"
+  },
+  "footer.returns": {
+    "ar": "الاستبدال والإرجاع",
+    "en": "Returns & exchanges"
+  },
+  "footer.aboutUs": {
+    "ar": "من نحن",
+    "en": "About us"
+  },
+  "footer.privacy": {
+    "ar": "الخصوصية",
+    "en": "Privacy"
+  },
+  "footer.whatsapp": {
+    "ar": "واتساب",
+    "en": "WhatsApp"
+  },
+  "footer.call": {
+    "ar": "اتصل بنا",
+    "en": "Call us"
+  },
+  "footer.instagram": {
+    "ar": "انستقرام",
+    "en": "Instagram"
+  },
+  "footer.tiktok": {
+    "ar": "تيك توك",
+    "en": "TikTok"
+  },
+  "footer.language": {
+    "ar": "اللغة",
+    "en": "Language"
+  },
+  "footer.rights": {
+    "ar": "© {year} GameBoss Q8. جميع الحقوق محفوظة.",
+    "en": "© {year} GameBoss Q8. All rights reserved."
+  },
+  "footer.madeIn": {
+    "ar": "صُنع في الكويت لعشّاق الألعاب",
+    "en": "Made in Kuwait for gamers"
+  }
+}

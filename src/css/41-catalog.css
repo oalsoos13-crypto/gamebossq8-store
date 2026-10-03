@@ -1,0 +1,111 @@
+/* 41-catalog.css — catalog module: category / all-products listings (toolbar, chips, grid states),
+   search page and the header search overlay (#gb-search). Prefixes: .gb-catalog*, .gb-search-* */
+
+/* ---------------------------------------------------------------- listing head */
+.gb-catalog-head { padding-block: 4px 4px; }
+.gb-catalog-head .gb-pagehead__title { overflow-wrap: anywhere; }
+
+/* ---------------------------------------------------------------- toolbar */
+.gb-catalog { min-width: 0; }
+.gb-catalog-toolbar { display: grid; grid-template-columns: minmax(0, 1fr); gap: 10px; min-width: 0; margin-block: 14px 18px; }
+.gb-catalog-toolbar > *, .gb-catalog-filters, .gb-catalog-cats { min-width: 0; }
+.gb-catalog-bar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 16px; min-width: 0; }
+.gb-catalog-count { flex: 1 1 auto; min-width: 0; color: var(--ink-soft); font-size: var(--fs-sm); font-weight: 700; }
+.gb-catalog-sort { display: flex; align-items: center; gap: 8px; flex: none; min-width: 0; max-width: 100%; }
+.gb-catalog-sort > .i { width: 18px; height: 18px; color: var(--ink-soft); }
+.gb-catalog-sort label { font-size: var(--fs-sm); font-weight: 700; color: var(--ink-soft); white-space: nowrap; }
+@media (max-width: 479.98px) {
+  /* keep the label for assistive tech, show only the sort icon on narrow screens */
+  .gb-catalog-sort label { position: absolute; width: 1px; height: 1px; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+}
+.gb-catalog-sort .gb-select {
+  width: auto; min-width: 0; max-width: 100%; min-height: var(--tap); padding-block: 8px;
+  border-radius: var(--r-pill); font-weight: 700; padding-inline-start: 16px;
+}
+/* chip rows: bleed to the screen edge on mobile so long rows scroll naturally */
+.gb-catalog-chips {
+  margin-inline: calc(-1 * var(--gutter)); padding-inline: var(--gutter); scroll-padding-inline: var(--gutter);
+  align-items: center;
+}
+@media (min-width: 900px) {
+  .gb-catalog-chips { flex-wrap: wrap; overflow: visible; margin-inline: 0; padding-inline: 0; }
+}
+.gb-catalog-brands { display: flex; gap: 8px; flex: none; }
+@media (min-width: 900px) { .gb-catalog-brands { flex-wrap: wrap; flex: 0 1 auto; } }
+.gb-catalog-sep { flex: none; width: 1px; height: 28px; background: var(--line); margin-inline: 2px; }
+.gb-catalog-chip__n { font-weight: 400; font-variant-numeric: tabular-nums; opacity: .85; }
+.gb-chip.is-zero { opacity: .6; }
+.gb-catalog-chip__check { display: none; }
+.gb-chip[aria-pressed="true"] .gb-catalog-chip__check { display: block; }
+.gb-catalog-reset { background: var(--sale-soft); border-color: transparent; color: var(--sale); }
+.gb-catalog-reset:hover { border-color: var(--sale); color: var(--sale); }
+.gb-catalog-cats .gb-chip { font-size: var(--fs-sm); }
+
+.gb-catalog__empty .gb-empty { background: var(--surface); border: 1px solid var(--line-soft); border-radius: var(--r); }
+.gb-catalog-more { padding-block-end: 8px; }
+
+/* ---------------------------------------------------------------- search page */
+.gb-search-pageform { position: relative; display: flex; align-items: center; gap: 8px; min-width: 0; margin-block: 8px 4px; max-width: 720px; }
+.gb-search-pageform__icon { position: absolute; inset-inline-start: 16px; top: 50%; margin-top: -11px; color: var(--ink-mute); pointer-events: none; }
+.gb-search-pageform__input { flex: 1 1 auto; min-width: 0; min-height: 52px; padding-inline-start: 48px; border-radius: var(--r-pill); }
+.gb-search-pageform__input::-webkit-search-cancel-button { cursor: pointer; }
+.gb-search-pageform__submit { flex: none; min-height: 52px; }
+@media (max-width: 379.98px) { .gb-search-pageform__submit { padding-inline: 14px; } }
+.gb-search-pagehint { margin-block-start: 8px; max-width: 720px; }
+.gb-search-results { min-width: 0; padding-block-start: 12px; }
+.gb-search-heading { font-size: var(--fs-h3); overflow-wrap: anywhere; margin-block: 8px 4px; }
+.gb-search-loading { color: var(--ink-soft); padding-block: 24px; }
+.gb-search-start { min-width: 0; }
+.gb-search-recent { padding-block-start: 16px; }
+.gb-search-recent .gb-search-block__title { font-size: var(--fs-lg); }
+.gb-search-cats { padding-block-start: 20px; }
+.gb-search-none { padding-block: 32px 8px; }
+.gb-search-none .gb-empty__title { overflow-wrap: anywhere; }
+.gb-search-listing .gb-search-block { margin-block-start: 10px; }
+.gb-search-error { align-items: center; flex-wrap: wrap; margin-block: 16px; }
+.gb-search-error > span { flex: 1 1 200px; }
+
+/* ---------------------------------------------------------------- shared search blocks (overlay + page) */
+.gb-search-block { min-width: 0; }
+.gb-search-block + .gb-search-block { margin-block-start: 18px; }
+.gb-search-block__head { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.gb-search-block__title { font-size: var(--fs-sm); font-weight: 800; color: var(--ink-soft); margin-block-end: 8px; }
+.gb-search-block__head .gb-search-block__title { margin-block-end: 0; }
+.gb-search-clear {
+  min-height: var(--tap); min-width: var(--tap); padding-inline: 10px; border-radius: var(--r-xs);
+  color: var(--accent-ink); font-weight: 700; font-size: var(--fs-sm);
+}
+.gb-search-clear:hover { background: var(--accent-soft); }
+.gb-search-chips { list-style: none; }
+.gb-search-chips .gb-chip { white-space: normal; max-width: 100%; text-align: start; overflow-wrap: anywhere; }
+.gb-search-chips > li { min-width: 0; max-width: 100%; }
+.gb-search-catchip { padding-inline-start: 8px; }
+.gb-search-catchip__art { width: 28px; height: 28px; flex: none; }
+mark.gb-search-hl { background: var(--warn-soft); color: inherit; font-weight: 800; border-radius: 3px; padding-inline: 1px; box-shadow: inset 0 -2px 0 rgba(138, 92, 0, .35); }
+
+/* ---------------------------------------------------------------- header overlay (#gb-search dialog) */
+#gb-search .gb-dialog__body { padding-block-start: 0; }
+.gb-search-status { min-height: 1.4em; margin-block-end: 6px; color: var(--ink-mute); font-size: var(--fs-xs); font-weight: 700; }
+.gb-search-status:empty { min-height: 0; margin: 0; }
+.gb-search-panel { min-width: 0; }
+.gb-search-panel[aria-busy="true"] { opacity: .6; }
+.gb-search-list { display: grid; gap: 4px; list-style: none; }
+.gb-search-item {
+  display: flex; align-items: center; gap: 12px; min-height: 64px; padding: 8px; border-radius: var(--r-sm);
+  background: var(--surface); border: 1px solid var(--line-soft); color: var(--ink); min-width: 0;
+}
+.gb-search-item:hover { border-color: var(--line-strong); }
+.gb-search-item:focus-visible { outline: 3px solid var(--accent); outline-offset: 1px; }
+.gb-search-item__media { width: 56px; flex: none; border-radius: var(--r-xs); }
+.gb-search-item__media .gb-media__img { padding: 4px; }
+.gb-search-item__body { display: grid; gap: 2px; flex: 1 1 auto; min-width: 0; }
+.gb-search-item__name {
+  font-weight: 700; font-size: .92rem; line-height: 1.4; overflow-wrap: anywhere;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.gb-search-item__meta { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; min-width: 0; }
+.gb-search-item__meta .gb-price__now { font-size: .95rem; }
+.gb-search-all { margin-block-start: 12px; }
+.gb-search-all .i { width: 18px; height: 18px; }
+#gb-search .gb-search-none { padding-block: 20px 4px; }
+#gb-search .gb-search-none .gb-empty__title { font-size: 1.05rem; }

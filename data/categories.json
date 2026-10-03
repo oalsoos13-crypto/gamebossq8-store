@@ -1,0 +1,182 @@
+[
+  {
+    "id": "mobile",
+    "order": 1,
+    "name": {
+      "ar": "يدات الموبايل",
+      "en": "Mobile Controllers"
+    },
+    "description": {
+      "ar": "يدات تحكم للموبايل تمنحك تحكماً أدق وراحة أطول أثناء اللعب.",
+      "en": "Mobile controllers for sharper control and longer, more comfortable sessions."
+    },
+    "icon": "gamepad",
+    "count": 11,
+    "inStock": 10
+  },
+  {
+    "id": "trigger",
+    "order": 2,
+    "name": {
+      "ar": "أزرار وشفتات",
+      "en": "Triggers & Buttons"
+    },
+    "description": {
+      "ar": "أزرار وشفتات سريعة الاستجابة لألعاب مثل ببجي وكول أوف ديوتي.",
+      "en": "Fast-response triggers and buttons for games like PUBG and Call of Duty."
+    },
+    "icon": "trigger",
+    "count": 7,
+    "inStock": 4
+  },
+  {
+    "id": "tablet",
+    "order": 3,
+    "name": {
+      "ar": "يدات الايباد والتابلت",
+      "en": "iPad & Tablet Controllers"
+    },
+    "description": {
+      "ar": "يدات وأزرار مصممة خصيصاً للآيباد والتابلت.",
+      "en": "Controllers and triggers designed for iPad and tablets."
+    },
+    "icon": "tablet",
+    "count": 8,
+    "inStock": 6
+  },
+  {
+    "id": "glove",
+    "order": 4,
+    "name": {
+      "ar": "القفازات",
+      "en": "Finger Sleeves & Gloves"
+    },
+    "description": {
+      "ar": "قفازات أصابع تقلّل التعرّق وتجعل اللمس أنعم وأسرع.",
+      "en": "Finger sleeves that cut sweat and keep every swipe smooth and fast."
+    },
+    "icon": "glove",
+    "count": 8,
+    "inStock": 8
+  },
+  {
+    "id": "fan",
+    "order": 5,
+    "name": {
+      "ar": "مراوح التبريد",
+      "en": "Cooling Fans"
+    },
+    "description": {
+      "ar": "مراوح تبريد للموبايل والآيباد تحافظ على أداء جهازك أثناء اللعب.",
+      "en": "Phone and iPad coolers that keep your device performing mid-game."
+    },
+    "icon": "fan",
+    "count": 25,
+    "inStock": 21
+  },
+  {
+    "id": "cable",
+    "order": 6,
+    "name": {
+      "ar": "الوصلات والشواحن",
+      "en": "Adapters, Cables & Chargers"
+    },
+    "description": {
+      "ar": "وصلات وأدبترات وكيابل شحن لتشحن جهازك وتلعب في الوقت نفسه.",
+      "en": "Adapters, cables and chargers so you can charge and play at the same time."
+    },
+    "icon": "cable",
+    "count": 47,
+    "inStock": 42
+  },
+  {
+    "id": "case",
+    "order": 7,
+    "name": {
+      "ar": "الكفرات والمسكات",
+      "en": "Cases & Grips"
+    },
+    "description": {
+      "ar": "كفرات ومسكات تحمي جهازك وتثبّته في يدك.",
+      "en": "Cases and grips that protect your device and keep it steady in hand."
+    },
+    "icon": "case",
+    "count": 21,
+    "inStock": 20
+  },
+  {
+    "id": "headset",
+    "order": 8,
+    "name": {
+      "ar": "السماعات",
+      "en": "Headsets & Audio"
+    },
+    "description": {
+      "ar": "سماعات ألعاب بصوت واضح ومايك نقي.",
+      "en": "Gaming headsets and earbuds with clear sound and a clean mic."
+    },
+    "icon": "headset",
+    "count": 17,
+    "inStock": 15
+  },
+  {
+    "id": "stand",
+    "order": 9,
+    "name": {
+      "ar": "الستاندات",
+      "en": "Stands"
+    },
+    "description": {
+      "ar": "ستاندات وحوامل ثابتة للموبايل والآيباد.",
+      "en": "Sturdy stands and holders for phones and iPads."
+    },
+    "icon": "stand",
+    "count": 8,
+    "inStock": 6
+  },
+  {
+    "id": "accessory",
+    "order": 10,
+    "name": {
+      "ar": "إكسسوارات",
+      "en": "Accessories"
+    },
+    "description": {
+      "ar": "إكسسوارات متنوعة تكمّل أدوات اللعب لديك.",
+      "en": "Extra accessories to round out your gaming kit."
+    },
+    "icon": "accessory",
+    "count": 8,
+    "inStock": 8
+  },
+  {
+    "id": "bag",
+    "order": 11,
+    "name": {
+      "ar": "الشنط",
+      "en": "Bags"
+    },
+    "description": {
+      "ar": "شنط وحافظات تحمل أجهزتك وإكسسواراتك بأمان.",
+      "en": "Bags and pouches to carry your devices and gear safely."
+    },
+    "icon": "bag",
+    "count": 4,
+    "inStock": 4
+  },
+  {
+    "id": "device",
+    "order": 12,
+    "name": {
+      "ar": "الأجهزة",
+      "en": "Devices"
+    },
+    "description": {
+      "ar": "أجهزة ألعاب مختارة.",
+      "en": "Selected gaming devices."
+    },
+    "icon": "device",
+    "count": 1,
+    "inStock": 1
+  }
+]

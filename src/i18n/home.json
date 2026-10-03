@@ -1,0 +1,112 @@
+{
+  "$comment": "Home page strings (src/pages/home.mjs, src/js/50-home.js). Only claims allowed by SPEC §6. Only home.recentCleared is needed client-side.",
+  "home.eyebrow": {
+    "ar": "GameBoss Q8 · الكويت",
+    "en": "GameBoss Q8 · Kuwait"
+  },
+  "home.heroTitle": {
+    "ar": "إكسسوارات ألعاب بذوق مختلف.",
+    "en": "Gaming accessories, chosen with care."
+  },
+  "home.heroSub": {
+    "ar": "يدات تحكم، شفتات، مراوح تبريد ووصلات لألعاب الموبايل والآيباد. اطلب عبر واتساب، وادفع كاش عند الاستلام أو برابط KNET.",
+    "en": "Controllers, triggers, cooling fans and adapters for mobile and iPad gaming. Order on WhatsApp and pay cash on delivery or by KNET link."
+  },
+  "home.shopNow": {
+    "ar": "تسوّق الأقسام",
+    "en": "Shop categories"
+  },
+  "home.seeDeals": {
+    "ar": "شاهد العروض",
+    "en": "See the deals"
+  },
+  "home.heroPick": {
+    "ar": "من مختاراتنا",
+    "en": "Our pick"
+  },
+  "home.viewProduct": {
+    "ar": "التفاصيل",
+    "en": "Details"
+  },
+  "home.viewProductLabel": {
+    "ar": "تفاصيل {name}",
+    "en": "{name} details"
+  },
+  "home.catsTitle": {
+    "ar": "تسوّق حسب القسم",
+    "en": "Shop by category"
+  },
+  "home.catsSub": {
+    "ar": "كل أقسام المتجر في مكان واحد.",
+    "en": "Every category in one place."
+  },
+  "home.dealsTitle": {
+    "ar": "عروض",
+    "en": "Deals"
+  },
+  "home.dealsSub": {
+    "ar": "خصومات حقيقية على منتجات متوفرة الآن، مرتّبة حسب نسبة الخصم.",
+    "en": "Real discounts on products in stock now, sorted by discount."
+  },
+  "home.picksTitle": {
+    "ar": "مختارات",
+    "en": "Our picks"
+  },
+  "home.picksSub": {
+    "ar": "منتجات اخترناها لك من المتجر.",
+    "en": "Products we picked for you."
+  },
+  "home.recentTitle": {
+    "ar": "شاهدتها مؤخراً",
+    "en": "Recently viewed"
+  },
+  "home.recentClear": {
+    "ar": "مسح السجل",
+    "en": "Clear history"
+  },
+  "home.recentClearLabel": {
+    "ar": "مسح سجل المنتجات التي شاهدتها",
+    "en": "Clear your recently viewed products"
+  },
+  "home.recentCleared": {
+    "ar": "تم مسح سجل المشاهدة",
+    "en": "Viewing history cleared",
+    "client": true
+  },
+  "home.trustLabel": {
+    "ar": "لماذا GameBoss Q8",
+    "en": "Why GameBoss Q8"
+  },
+  "home.trustWa": {
+    "ar": "اطلب بسهولة عبر واتساب",
+    "en": "Order easily on WhatsApp"
+  },
+  "home.trustPay": {
+    "ar": "الدفع كاش عند الاستلام أو رابط KNET",
+    "en": "Pay cash on delivery or by KNET link"
+  },
+  "home.trustDelivery": {
+    "ar": "توصيل داخل الكويت",
+    "en": "Delivery within Kuwait"
+  },
+  "home.trustBrands": {
+    "ar": "ماركات ألعاب معروفة",
+    "en": "Well-known gaming brands"
+  },
+  "home.socialEyebrow": {
+    "ar": "تابعنا",
+    "en": "Follow us"
+  },
+  "home.socialTitle": {
+    "ar": "تابع الجديد وتواصل معنا",
+    "en": "See what’s new and get in touch"
+  },
+  "home.socialText": {
+    "ar": "نعرض المنتجات الجديدة على انستقرام وتيك توك، وعلى واتساب نجيب عن أسئلتك ونساعدك في اختيار المناسب لجهازك.",
+    "en": "We post new arrivals on Instagram and TikTok. On WhatsApp we answer your questions and help you choose what fits your device."
+  },
+  "home.socialWa": {
+    "ar": "راسلنا على واتساب",
+    "en": "Message us on WhatsApp"
+  }
+}

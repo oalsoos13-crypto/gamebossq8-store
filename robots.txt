@@ -1,0 +1,10 @@
+# GameBoss Q8 — robots.txt
+# Crawlers only read robots.txt at the HOST ROOT. While the store lives under https://oalsoos13-crypto.github.io/gamebossq8-store/
+# this file is ignored — submit https://oalsoos13-crypto.github.io/gamebossq8-store/sitemap.xml in Google Search Console instead.
+# It becomes effective as-is once the store moves to its own domain (build with --base /).
+# Utility pages (search, wishlist, checkout, offline, 404) are NOT blocked here on purpose: they carry
+# <meta name="robots" content="noindex"> and crawlers must be able to read it.
+User-agent: *
+Allow: /
+
+Sitemap: https://oalsoos13-crypto.github.io/gamebossq8-store/sitemap.xml

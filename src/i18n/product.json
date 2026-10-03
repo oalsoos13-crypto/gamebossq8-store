@@ -1,0 +1,159 @@
+{
+  "$comment": "Product page strings (src/pages/product.mjs, src/js/40-product.js). Client-side strings are passed through the page's #gb-page JSON, so none of these is embedded on other pages.",
+  "product.metaDesc": {
+    "ar": "{name} بسعر {price} من GameBoss Q8 في الكويت. {desc}",
+    "en": "{name} for {price} at GameBoss Q8 Kuwait. {desc}"
+  },
+  "product.metaDescFallback": {
+    "ar": "{name} بسعر {price} من GameBoss Q8 في الكويت. اطلبه بسهولة عبر واتساب مع توصيل داخل الكويت والدفع كاش عند الاستلام.",
+    "en": "{name} for {price} at GameBoss Q8 Kuwait. Order easily on WhatsApp, with delivery within Kuwait and cash on delivery."
+  },
+  "product.galleryLabel": {
+    "ar": "صور المنتج",
+    "en": "Product images"
+  },
+  "product.galleryHint": {
+    "ar": "صور المنتج، استخدم الأسهم للتنقل بين الصور",
+    "en": "Product images, use the arrow keys to browse"
+  },
+  "product.slideLabel": {
+    "ar": "{n} من {total}",
+    "en": "{n} of {total}"
+  },
+  "product.imageAlt": {
+    "ar": "{name} — صورة {n} من {total}",
+    "en": "{name} — image {n} of {total}"
+  },
+  "product.thumbLabel": {
+    "ar": "عرض الصورة {n} من {total}",
+    "en": "Show image {n} of {total}"
+  },
+  "product.prevImage": {
+    "ar": "الصورة السابقة",
+    "en": "Previous image"
+  },
+  "product.nextImage": {
+    "ar": "الصورة التالية",
+    "en": "Next image"
+  },
+  "product.sku": {
+    "ar": "رقم المنتج: {id}",
+    "en": "Product no. {id}"
+  },
+  "product.qtyDec": {
+    "ar": "إنقاص الكمية",
+    "en": "Decrease quantity"
+  },
+  "product.qtyInc": {
+    "ar": "زيادة الكمية",
+    "en": "Increase quantity"
+  },
+  "product.buyNow": {
+    "ar": "اشترِ الآن",
+    "en": "Buy now"
+  },
+  "product.ask": {
+    "ar": "اسأل عنه على واتساب",
+    "en": "Ask on WhatsApp"
+  },
+  "product.askMsg": {
+    "ar": "استفسار عن: {name} [#{id}]\n{url}",
+    "en": "Question about: {name} [#{id}]\n{url}"
+  },
+  "product.share": {
+    "ar": "مشاركة",
+    "en": "Share"
+  },
+  "product.shareLabel": {
+    "ar": "شارك رابط المنتج",
+    "en": "Share this product"
+  },
+  "product.shareText": {
+    "ar": "{name} من GameBoss Q8",
+    "en": "{name} at GameBoss Q8"
+  },
+  "product.linkCopied": {
+    "ar": "تم نسخ رابط المنتج",
+    "en": "Product link copied"
+  },
+  "product.copyFailed": {
+    "ar": "تعذّر النسخ، انسخ الرابط من شريط العنوان",
+    "en": "Couldn’t copy — please copy the link from the address bar"
+  },
+  "product.oosNote": {
+    "ar": "نفدت كمية هذا المنتج حالياً. اطلب تنبيهاً عبر واتساب لنبلغك عند توفّره.",
+    "en": "This item is out of stock right now. Ask us on WhatsApp and we’ll let you know when it’s back."
+  },
+  "product.backorderNote": {
+    "ar": "هذا المنتج متاح بالطلب المسبق، ونؤكد معك موعد التوفّر عبر واتساب بعد إرسال الطلب.",
+    "en": "This item is available to pre-order. We’ll confirm the availability date with you on WhatsApp after you order."
+  },
+  "product.orderWa": {
+    "ar": "اطلب بسهولة عبر واتساب",
+    "en": "Order easily on WhatsApp"
+  },
+  "product.payment": {
+    "ar": "الدفع كاش عند الاستلام أو برابط KNET",
+    "en": "Pay cash on delivery or by KNET link"
+  },
+  "product.deliveryPending": {
+    "ar": "توصيل داخل الكويت، ونؤكد رسوم التوصيل معك على واتساب",
+    "en": "Delivery within Kuwait — we confirm the delivery fee with you on WhatsApp"
+  },
+  "product.deliveryConfirmed": {
+    "ar": "التوصيل {fee}، ومجاني للطلبات من {free} فأكثر",
+    "en": "Delivery {fee}, free on orders of {free} or more"
+  },
+  "product.descTitle": {
+    "ar": "الوصف",
+    "en": "Description"
+  },
+  "product.descArabic": {
+    "ar": "الوصف (بالعربية)",
+    "en": "Description (Arabic)"
+  },
+  "product.descEmpty": {
+    "ar": "لا يتوفر وصف تفصيلي لهذا المنتج حالياً. راسلنا على واتساب للاستفسار عن المواصفات أو التوافق مع جهازك.",
+    "en": "There’s no detailed description for this item yet. Message us on WhatsApp to ask about specs or compatibility with your device."
+  },
+  "product.infoTitle": {
+    "ar": "معلومات المنتج",
+    "en": "Product info"
+  },
+  "product.brand": {
+    "ar": "الماركة",
+    "en": "Brand"
+  },
+  "product.brandLink": {
+    "ar": "ابحث عن منتجات {brand}",
+    "en": "Search {brand} products"
+  },
+  "product.category": {
+    "ar": "القسم",
+    "en": "Category"
+  },
+  "product.availability": {
+    "ar": "التوفّر",
+    "en": "Availability"
+  },
+  "product.number": {
+    "ar": "رقم المنتج",
+    "en": "Product no."
+  },
+  "product.related": {
+    "ar": "منتجات مشابهة",
+    "en": "Similar products"
+  },
+  "product.relatedSub": {
+    "ar": "المزيد من قسم {cat}",
+    "en": "More from {cat}"
+  },
+  "product.recent": {
+    "ar": "شاهدتها مؤخراً",
+    "en": "Recently viewed"
+  },
+  "product.barLabel": {
+    "ar": "شراء سريع",
+    "en": "Quick buy"
+  }
+}
